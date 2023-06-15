@@ -85,3 +85,4 @@ D:\Learning\ASP\Projects\Movies_CRUD\Movies_CRUD\bin\Debug\net6.0\runtimes\win\l
 D:\Learning\ASP\Projects\Movies_CRUD\Movies_CRUD\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\Learning\ASP\Projects\Movies_CRUD\Movies_CRUD\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Learning\ASP\Projects\Movies_CRUD\Movies_CRUD\obj\Debug\net6.0\Movies_CRUD.csproj.CopyComplete
+D:\Learning\ASP\Projects\Movies_CRUD\Movies_CRUD\bin\Debug\net6.0\libman.json
