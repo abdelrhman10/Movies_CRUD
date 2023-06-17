@@ -17,6 +17,18 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "D:\\Learning\\ASP\\Projects\\Movies_CRUD\\Movies_CRUD\\wwwroot\\lib\\bootstrap-datepicker\\css\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-datepicker\\css\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "D:\\Learning\\ASP\\Projects\\Movies_CRUD\\Movies_CRUD\\wwwroot\\lib\\bootstrap-datepicker\\css\\bootstrap-datepicker3.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-datepicker\\css\\bootstrap-datepicker3.min.css"
+    },
+    {
+      "Id": "D:\\Learning\\ASP\\Projects\\Movies_CRUD\\Movies_CRUD\\wwwroot\\lib\\bootstrap-datepicker\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-datepicker\\js\\bootstrap-datepicker.min.js"
+    },
+    {
       "Id": "D:\\Learning\\ASP\\Projects\\Movies_CRUD\\Movies_CRUD\\wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css"
     },

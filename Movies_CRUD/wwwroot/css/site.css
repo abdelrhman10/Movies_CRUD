@@ -16,3 +16,15 @@ html {
 body {
   margin-bottom: 60px;
 }
+textarea{
+    resize:none;
+}
+/*Custo styles*/
+input ::-webkit-outer-spin-button,
+input ::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]{
+    -moz-appearance:textfield;
+}
