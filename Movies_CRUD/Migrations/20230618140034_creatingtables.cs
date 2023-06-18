@@ -5,7 +5,7 @@
 namespace Movies_CRUD.Migrations
 {
     /// <inheritdoc />
-    public partial class AddMoviesGenreTable : Migration
+    public partial class creatingtables : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -34,7 +34,6 @@ namespace Movies_CRUD.Migrations
                     Rate = table.Column<double>(type: "float", nullable: false),
                     StoryLine = table.Column<string>(type: "nvarchar(2500)", maxLength: 2500, nullable: false),
                     Poster = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
-                    GenerId = table.Column<byte>(type: "tinyint", nullable: false),
                     GenreId = table.Column<byte>(type: "tinyint", nullable: false)
                 },
                 constraints: table =>
@@ -45,7 +44,7 @@ namespace Movies_CRUD.Migrations
                         column: x => x.GenreId,
                         principalTable: "Genres",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(

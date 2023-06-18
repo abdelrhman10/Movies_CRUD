@@ -11,8 +11,8 @@ using Movies_CRUD.Models;
 namespace Movies_CRUD.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20230615132821_AddMoviesGenreTable")]
-    partial class AddMoviesGenreTable
+    [Migration("20230618140034_creatingtables")]
+    partial class creatingtables
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,9 +49,6 @@ namespace Movies_CRUD.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<byte>("GenerId")
-                        .HasColumnType("tinyint");
 
                     b.Property<byte>("GenreId")
                         .HasColumnType("tinyint");

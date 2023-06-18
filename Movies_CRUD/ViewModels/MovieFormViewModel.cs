@@ -17,7 +17,7 @@ namespace Movies_CRUD.ViewModels
         public byte[] Poster { get; set; }
 
         [Display(Name ="Genre")]
-        public byte GenerId { set; get; }
+        public byte GenreId { set; get; }
 
         public IEnumerable<Genre> Genres { get; set; }
     }

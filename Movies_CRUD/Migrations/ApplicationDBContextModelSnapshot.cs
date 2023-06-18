@@ -47,9 +47,6 @@ namespace Movies_CRUD.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<byte>("GenerId")
-                        .HasColumnType("tinyint");
-
                     b.Property<byte>("GenreId")
                         .HasColumnType("tinyint");
 

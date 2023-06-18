@@ -15,10 +15,10 @@ namespace Movies_CRUD.Models
         [Required,MaxLength(2500)]
         public string StoryLine { get; set; }
 
-        [Required]
+        
         public byte[] Poster {  get; set; } 
 
-        public byte GenerId { set; get; }
+        public byte GenreId { set; get; }
 
         public Genre Genre { get; set; }
     }
